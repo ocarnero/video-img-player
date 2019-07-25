@@ -1,0 +1,35 @@
+{
+  "name": "video-img-player",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "rc-banner-anim": "2.2.9",
+    "rc-queue-anim": "^1.6.0",
+    "rc-tween-one": "2.4.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-player": "1.11.1",
+    "react-popover": "0.5.10",
+    "react-rounded-image": "2.0.2",
+    "react-scripts": "3.0.1",
+    "style-utils": "0.2.0",
+    "tween-functions": "1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
