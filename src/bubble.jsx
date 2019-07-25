@@ -9,7 +9,7 @@ function Bubble() {
     <div class="bubble">
       <Popover
         isOpen
-        preferPlace="right"
+        preferPlace="left"
         body={<div class="popover">{msg1.msg}</div>}
       >
         <RoundedImage

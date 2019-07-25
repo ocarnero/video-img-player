@@ -46,10 +46,10 @@ function Player() {
   });
 
   return (
-    <div>
+    <React.Fragment>
       <Bubble />
       <BannerAnim>{listItems}</BannerAnim>
-    </div>
+    </React.Fragment>
   );
 }
 

@@ -1,7 +1,7 @@
 .banner-anim {
   position: relative;
   overflow: hidden;
-  min-height: 800px;
+  min-height: 600px;
 }
 .banner-anim-elem {
   height: 100%;
@@ -97,10 +97,19 @@
 .bubble {
   position: absolute;
   z-index: 11;
-  width: 100%;
+  right: 0;
+  bottom: 0;
 }
 .popover {
   background-color: black;
   color: white;
   padding: 10px;
+}
+.logo {
+  max-width: 20%;
+  max-height: 50%;
+  float:right;
+}
+.App {
+  float: left;
 }

@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Player from "./endava-player";
+import logo from "./assets/Endava_Logo_RGB.png";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <img class="logo" src={logo} alt="logo" />
+      <h1>Green-Comm</h1>
+      <h2>Endava's comm player</h2>
       <Player />
     </div>
   );
